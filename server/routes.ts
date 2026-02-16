@@ -317,7 +317,7 @@ async function seedData() {
     console.log("Seeding data...");
     
     // Create Admin
-    const hashedPassword = await hashPassword("admin123");
+    const hashedPassword = await hashPassword("admin1234");
     await storage.createUser({
       username: "admin",
       password: hashedPassword,

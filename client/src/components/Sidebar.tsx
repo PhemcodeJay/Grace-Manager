@@ -33,8 +33,8 @@ export function Sidebar() {
   return (
     <div className="h-screen w-64 bg-card border-r flex flex-col fixed left-0 top-0 z-50">
       <div className="p-6 border-b flex items-center gap-3">
-        <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
-          <Church className="w-6 h-6" />
+        <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center overflow-hidden">
+          <img src="/logo.png" alt="Grace Manager Logo" className="w-full h-full object-cover" />
         </div>
         <div>
           <h1 className="font-display font-bold text-lg leading-tight">Grace Manager</h1>
